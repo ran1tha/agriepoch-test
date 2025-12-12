@@ -15,26 +15,26 @@ header:
       url: "https://github.com/mmistakes/minimal-mistakes/"
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "The meta description of Michel's website goes here. The meta description of Michel's website goes here. The meta description of Michel's website goes here. "
-excerpt: "The meta description of Michel's website goes here. The meta description of Michel's website goes here. The meta description of Michel's website goes here."
+excerpt: "The meta description of Michel's website goes here. The meta description of Michel's website goes here. The meta description of Michel's website goes here. The meta description of Michel's website goes here. The meta description of Michel's website goes here. The meta description of Michel's website goes here."
 intro: 
   - excerpt: 'The Sustainable **Agriculture Epoch** has Begun!'
 
 feature_row:
-  - image_path: /assets/images/fruit3.jpg
+  - image_path: /assets/images/blog.png
     alt: "read our blog"
     title: "Sustainability Blog"
     excerpt: "Follow the latests trends in sustainabile agriculture and stay informed about green news."
     url: "/posts/"
     btn_label: "Click Here"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/fruit2.jpg
+  - image_path: /assets/images/services.png
     alt: "services"
     title: "Our Services"
     excerpt: "We provide a variety of services from **freelance writing** and **agriculture consulting**."
     url: "/services/"
     btn_label: "Click Here"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/fruit3.jpg
+  - image_path: /assets/images/more.png
     title: "Coming Soon"
     excerpt: "Stay tuned for a surprise!"
 
@@ -48,14 +48,6 @@ feature_row2:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
-feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
 
 ---
 {% include feature_row %}
@@ -64,4 +56,3 @@ feature_row4:
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row id="feature_row4" type="center" %}
