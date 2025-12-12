@@ -1,11 +1,17 @@
 ---
-title: "Why Sustainable Agriculture Matters: Building a Food System That Protects Our Planet"
+title: "Why Sustainable Agriculture Matters"
+subtitle: "Building a Food System That Protects Our Planet"
 categories:
-  - blog
+  - Blog
+  - Sustainability
+  - Agriculture
 tags:
-  - Jekyll
-  - update
-
+  - Writing
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/post1.jpg
+excerpt: "Building a Food System That Protects Our Planet."
 classes: wide
 ---
 

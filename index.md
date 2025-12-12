@@ -15,7 +15,7 @@ header:
       url: "https://github.com/mmistakes/minimal-mistakes/"
   #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "The meta description of Michel's website goes here. The meta description of Michel's website goes here. The meta description of Michel's website goes here. "
-excerpt: "The meta description of Michel's website goes here. The meta description of Michel's website goes here. The meta description of Michel's website goes here. The meta description of Michel's website goes here. The meta description of Michel's website goes here. The meta description of Michel's website goes here."
+excerpt: "Discover clear, research-based tips on sustainable farming, tropical crop care, soil health, and climate resilience. Easy explanations for anyone who wants to grow smarter."
 intro: 
   - excerpt: 'The Sustainable **Agriculture Epoch** has Begun!'
 
