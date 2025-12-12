@@ -3,9 +3,8 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: "It's Time For Sustainable Agriculture Practices"
-layout: posts
-entries_layout: grid
-author_profile: true
+layout: splash
+author_profile: false
 classes: wide
 header:
   overlay_color: "#000"
@@ -14,28 +13,55 @@ header:
   actions:
     - label: "Contact Us"
       url: "https://github.com/mmistakes/minimal-mistakes/"
-  $caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "The meta description of Michel's website goes here. The meta description of Michel's website goes here. The meta description of Michel's website goes here. "
-excerpt: "The meta description of Michel's website goes here. The meta description of Michel's website goes here. The meta description of Michel's website goes here. The meta description of Michel's website goes here. "
+excerpt: "The meta description of Michel's website goes here. The meta description of Michel's website goes here. The meta description of Michel's website goes here."
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'The Sustainable **Agriculture Epoch** has Begun!'
 
 feature_row:
   - image_path: /assets/images/fruit3.jpg
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    alt: "read our blog"
+    title: "Sustainability Blog"
+    excerpt: "Follow the latests trends in sustainabile agriculture and stay informed about green news."
+    url: "/posts/"
+    btn_label: "Click Here"
+    btn_class: "btn--inverse"
   - image_path: /assets/images/fruit2.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
+    alt: "services"
+    title: "Our Services"
+    excerpt: "We provide a variety of services from **freelance writing** and **agriculture consulting**."
+    url: "/services/"
+    btn_label: "Click Here"
     btn_class: "btn--inverse"
   - image_path: /assets/images/fruit3.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    title: "Coming Soon"
+    excerpt: "Stay tuned for a surprise!"
 
+feature_row2:
+  - image_path: /assets/images/michel.jpeg
+    alt: "Mary Michel Soyza"
+    title: "Blog Author"
+    excerpt: 'Hi, I’m Michel Soyza, a writer with a strong background in agriculture and sustainability. I hold a BSc in Agricultural Technology and Management and an MSc in Building Resilience and Tropical Agro-Ecosystems.My goal is to share clear, practical, and easy-to-understand information that helps people learn about farming, plant care, and sustainable practices.'
+
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+feature_row4:
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder Image Center Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 
 ---
 {% include feature_row %}
+
+{% include feature_row id="feature_row2" type="left" %}
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row id="feature_row4" type="center" %}

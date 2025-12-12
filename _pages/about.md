@@ -1,11 +1,13 @@
 ---
 permalink: /about/
-title: "About"
+title: "About Agri Epoch"
 ---
 
-This is the place you add the about section. 
-\\
-You can add image as below. 
+# Vision 
 
-{% include figure popup=true image_path="/assets/images/michel.jpeg" alt="this is a placeholder image" caption="This is a figure caption." %}
+To create a world where sustainable agriculture is simple to understand and easy to practice. I aim to make reliable guidance accessible to everyone, helping people grow healthier crops, protect the environment, and build resilience in a changing climate.
+
+# Mission 
+
+My mission is to provide simple, practical, and research-based guidance that helps people understand sustainable farming, soil health, plant care, and climate resilience. I aim to translate scientific knowledge into everyday steps that anyone can apply to improve productivity while protecting the environment
 
